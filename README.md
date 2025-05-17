@@ -1,4 +1,4 @@
-# Tianyu Shi's Academic Homepage
+# Overview
 
 This is the repository for my personal academic website. The theme is based on [Academimal](https://github.com/yangl1996/academimal) with custom changes.
 
