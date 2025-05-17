@@ -5,13 +5,21 @@ title = "Tianyu Shi"
 [params]
   description = "A website built with Hugo"
   author = "Your Name"
-  email = "example@example.com"
+  email = "sty1999@student.ubc.ca"
   shortbio = "A short biography"
   officeAddress = "Your Office Address"
   officeMapLink = "https://maps.google.com"
   PGPPubkeyLink = "#"
   PGPFingerprint = "0123456789ABCDEF"
   ShowPGP = false
+  ShowEmail = true
+  ShowOffice = false
+  
+  # Social Media Links
+  GithubURL = "https://github.com/alextianyushi"
+  TwitterURL = "https://x.com/Xubai_TY"
+  LinkedinURL = "https://www.linkedin.com/in/tianyu-shi-74838518b/"
+  ShowSocialMedia = true
 
 [menu]
   [[menu.main]]

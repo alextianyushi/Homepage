@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Site.Title }} | {{ .Title }}</title>
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/dark-mode.css" | relURL }}">
+    <script src="{{ "/js/dark-mode.js" | relURL }}" defer></script>
     <!--<link rel="stylesheet" href="{{ "/css/academicons.css" | relURL }}"/>-->
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ .Site.Title }}</h1>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h1>{{ .Site.Title }}</h1>
+          <div class="theme-toggle" title="Toggle dark/light mode">
+            <span class="theme-toggle-icon"></span>
+          </div>
+        </div>
 		
 		<!-- begin photo -->
         {{ with .Site.Params.logo }}
@@ -25,19 +32,33 @@
 		
         <div class="compact-sidebar">
 		<!-- begin electronic post -->
-        <p>
-          <img src="{{ "/icons/mail-symbol.svg" | relURL }}" class="octicons">
-            {{ partial "mail.html" . }}
+        {{ if .Site.Params.ShowEmail }}
+        <p class="email-container">
+          <span class="light-icon">
+            <img src="{{ "/icons/mail-symbol.svg" | relURL }}" class="octicons">
+          </span>
+          <span class="dark-icon">
+            <img src="{{ "/icons/mail-symbol-white.svg" | relURL }}" class="octicons">
+          </span>
+          {{ partial "mail.html" . }}
         </p>
+        {{ end }}
 		<!-- end electronic post -->
 
         <!-- begin physical location -->
-        <p>
-          <img src="{{ "/icons/location-symbol.svg" | relURL }}" class="octicons">
+        {{ if .Site.Params.ShowOffice }}
+        <p class="location-container">
+          <span class="light-icon">
+            <img src="{{ "/icons/location-symbol.svg" | relURL }}" class="octicons">
+          </span>
+          <span class="dark-icon">
+            <img src="{{ "/icons/location-symbol-white.svg" | relURL }}" class="octicons">
+          </span>
           <a href="{{ .Site.Params.officeMapLink }}" target="_blank">
               {{ .Site.Params.officeAddress }}
           </a>
         </p>
+        {{ end }}
         <!-- end physical location -->
 
         <!-- begin openpgp public key -->

@@ -7,12 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tianyu Shi | Tianyu Shi</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/dark-mode.css">
+    <script src="/js/dark-mode.js" defer></script>
     
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Tianyu Shi</h1>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h1>Tianyu Shi</h1>
+          <div class="theme-toggle" title="Toggle dark/light mode">
+            <span class="theme-toggle-icon"></span>
+          </div>
+        </div>
 		
 		
         
@@ -24,21 +31,23 @@
 		
         <div class="compact-sidebar">
 		
-        <p>
-          <img src="/icons/mail-symbol.svg" class="octicons">
-            
-  <a href="mailto:example@example.com">example@example.com</a>
+        
+        <p class="email-container">
+          <span class="light-icon">
+            <img src="/icons/mail-symbol.svg" class="octicons">
+          </span>
+          <span class="dark-icon">
+            <img src="/icons/mail-symbol-white.svg" class="octicons">
+          </span>
+          
+  <a href="mailto:sty1999@student.ubc.ca">email</a>
  
         </p>
+        
 		
 
         
-        <p>
-          <img src="/icons/location-symbol.svg" class="octicons">
-          <a href="https://maps.google.com" target="_blank">
-              Your Office Address
-          </a>
-        </p>
+        
         
 
         
@@ -57,7 +66,24 @@
   
   <p><a href="/about/">About</a></p>
   
-</nav>  
+</nav>
+
+
+<hr/>
+<nav class="social-links">
+  
+  <p><a href="https://github.com/alextianyushi" target="_blank">GitHub</a></p>
+  
+  
+  
+  <p><a href="https://x.com/Xubai_TY" target="_blank">Twitter</a></p>
+  
+  
+  
+  <p><a href="https://www.linkedin.com/in/tianyu-shi-74838518b/" target="_blank">LinkedIn</a></p>
+  
+</nav>
+  
       </header>
 
 <section>

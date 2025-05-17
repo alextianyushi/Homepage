@@ -1,0 +1,121 @@
+/* Dark Mode Styles */
+:root {
+  --bg-color: #fff;
+  --text-color: #333;
+  --link-color: #267CB9;
+  --link-hover-color: #069;
+  --heading-color: #222;
+  --border-color: #e5e5e5;
+  --blockquote-color: #f0f0f0;
+  --code-bg: #f8f8f8;
+  --code-text: #333;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --link-color: #64b5f6;
+  --link-hover-color: #90caf9;
+  --heading-color: #f0f0f0;
+  --border-color: #4a4a4a;
+  --blockquote-color: #292929;
+  --code-bg: #292929;
+  --code-text: #e0e0e0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover, a:focus {
+  color: var(--link-hover-color);
+}
+
+blockquote {
+  border-left: 1px solid var(--border-color);
+  background-color: var(--blockquote-color);
+}
+
+code, pre {
+  background-color: var(--code-bg);
+  color: var(--code-text);
+}
+
+hr {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Dark Mode Toggle Button */
+.theme-toggle {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.theme-toggle-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+[data-theme="light"] .theme-toggle-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+[data-theme="dark"] .theme-toggle-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='5'%3E%3C/circle%3E%3Cline x1='12' y1='1' x2='12' y2='3'%3E%3C/line%3E%3Cline x1='12' y1='21' x2='12' y2='23'%3E%3C/line%3E%3Cline x1='4.22' y1='4.22' x2='5.64' y2='5.64'%3E%3C/line%3E%3Cline x1='18.36' y1='18.36' x2='19.78' y2='19.78'%3E%3C/line%3E%3Cline x1='1' y1='12' x2='3' y2='12'%3E%3C/line%3E%3Cline x1='21' y1='12' x2='23' y2='12'%3E%3C/line%3E%3Cline x1='4.22' y1='19.78' x2='5.64' y2='18.36'%3E%3C/line%3E%3Cline x1='18.36' y1='5.64' x2='19.78' y2='4.22'%3E%3C/line%3E%3C/svg%3E");
+}
+
+/* Email icon alignment fix */
+p img.octicons {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* Theme-specific icons */
+.light-icon {
+  display: inline-block;
+}
+
+.dark-icon {
+  display: none;
+}
+
+[data-theme="dark"] .light-icon {
+  display: none;
+}
+
+[data-theme="dark"] .dark-icon {
+  display: inline-block;
+}
+
+p a {
+  vertical-align: middle;
+}
+
+/* Social Media Links Styling */
+.social-links a {
+  display: inline-block;
+  font-weight: normal;
+  color: var(--link-color);
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+} 
