@@ -1,4 +1,4 @@
-// Dark mode toggle functionality
+// Theme switcher functionality
 document.addEventListener('DOMContentLoaded', function() {
   const themeToggle = document.querySelector('.theme-toggle');
   

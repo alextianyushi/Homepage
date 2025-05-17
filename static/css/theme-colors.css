@@ -1,4 +1,4 @@
-/* Dark Mode Styles */
+/* Theme Color Variables and Styles */
 :root {
   --bg-color: #fff;
   --text-color: #727272;
@@ -9,6 +9,7 @@
   --blockquote-color: #f0f0f0;
   --code-bg: #f8f8f8;
   --code-text: #333;
+  --strong-color: #222;
 }
 
 [data-theme="dark"] {
@@ -21,6 +22,7 @@
   --blockquote-color: #292929;
   --code-bg: #292929;
   --code-text: #e0e0e0;
+  --strong-color: #ffffff;
 }
 
 body {
@@ -30,6 +32,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
+}
+
+strong {
+  color: var(--strong-color);
 }
 
 a {
@@ -103,19 +109,4 @@ hr {
 
 .email-container a, .location-container a {
   vertical-align: middle;
-}
-
-/* Social Media Links Styling */
-.social-links a {
-  display: inline-block;
-  font-weight: normal;
-  color: var(--link-color);
-  transition: color 0.2s ease;
-  text-decoration: none;
-}
-
-.social-links a:hover,
-.social-links a:focus {
-  color: var(--link-hover-color);
-  text-decoration: underline;
 } 

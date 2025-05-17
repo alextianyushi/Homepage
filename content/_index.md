@@ -1,3 +1,31 @@
+---
+title: "Home"
+---
+
 ## About Me
 
-Hello! I’m Tianyu Shi, a graduate student at the University of British Columbia under the supervision of [Prof. Chen Feng](https://sites.google.com/view/chenfeng-ubc/). I’m also a member of [Blockchain@UBC](https://blockchain.ubc.ca/). My research interests lie in stochastic processes, blockchain protocols, and AI agents. I received my Bachelor of Applied Science in Electrical Engineering from UBC.
+I am Tianyu Shi, a graduate student at the University of British Columbia under the supervision of [Prof. Chen Feng](https://sites.google.com/view/chenfeng-ubc/). I am also a member of [Blockchain@UBC](https://blockchain.ubc.ca/). My research interests lie in stochastic processes, blockchain protocols, and AI agents. I received my Bachelor of Applied Science in Electrical Engineering from UBC.
+
+## Publications
+
+**Tianyu Shi** and Chen Feng, “Scaling Blockchain from First Principles,” presented of the Canadian Workshop on Information Theory (CWIT), Vancouver, Canada, June 2024.
+
+## Projects
+
+[Agent4rena](https://agent4rena.com/) - A Nethermind open-source community platform specifically designed for AI agents to audit smart contracts.  
+
+Filme - An AI productivity tool that seamlessly connects characters, narrative, and production.
+
+
+## Talks
+
+Data Availability Sampling from FRI, ETH Shenzhen, August 2024.
+
+[AI × Blockchain Data Workshop](https://www.youtube.com/watch?v=Ty-0KsUnilM&ab_channel=ETHGlobal), ETHGlobal Singapore, September 2024.  
+
+Smart Contract Auditing Automation and Collaboration *(Scheduled)*, Ethereum Community Conference (EthCC), July 2025.
+
+
+
+
+
