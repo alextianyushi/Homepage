@@ -1,0 +1,122 @@
+/* Typography Enhancements - Improving readability while maintaining academic professionalism */
+
+/* Better readability for main content */
+section p {
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+}
+
+/* Improved heading styles */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+}
+
+h2 {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+/* Subtle transitions for links */
+a {
+  transition: color 0.2s ease;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Better list styling */
+ul, ol {
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Improved blockquote style */
+blockquote {
+  font-style: italic;
+  border-left: 3px solid var(--border-color);
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--text-color);
+}
+
+/* Image enhancements */
+img {
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+/* Subtle hover effect for images */
+a img:hover {
+  transform: scale(1.02);
+}
+
+/* Subtle code highlighting */
+code {
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+pre code {
+  padding: 0;
+}
+
+/* Better tables */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+th {
+  background-color: var(--blockquote-color);
+  font-weight: 600;
+}
+
+th, td {
+  padding: 0.6em 1em;
+}
+
+tr:nth-child(even) {
+  background-color: var(--bg-color);
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+[data-theme="dark"] tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Publication styling - for future customization */
+section p strong {
+  font-weight: 700;
+}
+
+/* Improved hr */
+hr {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--border-color), transparent);
+  border: none;
+  margin: 2em 0;
+}
+
+/* Publication list enhancements */
+section p:has(strong):not(:first-of-type) {
+  margin-top: 1.5em;
+}
+
+/* Emphasize author name when it appears in publications */
+section p strong:first-child {
+  color: var(--strong-color);
+} 
