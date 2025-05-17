@@ -1,0 +1,22 @@
+/* Fixes for original theme issues */
+
+/* Fix link alignment issues */
+a {
+  vertical-align: baseline !important;
+  display: inline !important;
+  line-height: inherit !important;
+  position: static !important;
+  bottom: auto !important;
+}
+
+/* Special container alignments */
+.email-container a,
+.location-container a {
+  vertical-align: middle !important;
+}
+
+/* Reduce space between icons and text */
+.email-container img.octicons,
+.location-container img.octicons {
+  margin-right: 2px !important;
+} 

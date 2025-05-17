@@ -282,7 +282,10 @@ h3, h4, h5, h6 {
 
 a {
   color: #267CB9;
-  text-decoration: none; }
+  text-decoration: none;
+  vertical-align: baseline;
+  display: inline;
+  line-height: inherit; }
 
 a:hover, a:focus {
   color: #046; }
