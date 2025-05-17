@@ -1,0 +1,5 @@
+{{ if .Site.Params.email }}
+  <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+{{ else }}
+  <span>example@example.com</span>
+{{ end }} 
