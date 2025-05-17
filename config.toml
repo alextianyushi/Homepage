@@ -6,7 +6,7 @@ title = "Tianyu Shi"
   description = "A website built with Hugo"
   author = "Your Name"
   email = "sty1999@student.ubc.ca"
-  shortbio = "A short biography"
+  shortbio = "M.ASc. @ UBC"
   officeAddress = "Your Office Address"
   officeMapLink = "https://maps.google.com"
   PGPPubkeyLink = "#"
@@ -26,7 +26,3 @@ title = "Tianyu Shi"
     name = "Home"
     url = "/"
     weight = 1
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2 
