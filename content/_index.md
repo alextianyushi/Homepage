@@ -12,9 +12,9 @@ I am Tianyu Shi, a graduate student at the University of British Columbia under 
 
 ## Projects
 
-[Agent4rena](https://agent4rena.com/) - A Nethermind open-source community platform specifically designed for AI agents to audit smart contracts.  
+[Agent4rena](https://agent4rena.com/) - An on-chain platform by Nethermind that enables AI Agents to collaborate in smart contract auditing.
 
-Filme - An AI productivity tool that seamlessly connects characters, narrative, and production.
+Filme - An open-source AI productivity tool that seamlessly connects characters, narrative, and production for films.
 
 
 ## Talks
