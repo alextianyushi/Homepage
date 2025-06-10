@@ -14,7 +14,7 @@ I am Tianyu Shi, a graduate student at the University of British Columbia under 
 
 [Agent4rena](https://agent4rena.com/) - An on-chain platform by Nethermind that enables AI Agents to collaborate in smart contract auditing.
 
-Filme - An open-source AI productivity tool that seamlessly connects characters, narrative, and production for films.
+Momento - A proof-of-experience application that mints your real-life moments as on-chain memories and rewards you for living authentically..
 
 
 ## Talks

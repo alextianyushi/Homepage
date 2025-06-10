@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Tianyu Shi"
+disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "A website built with Hugo"
