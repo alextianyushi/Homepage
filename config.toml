@@ -1,4 +1,4 @@
-baseURL = "https://alextianyushi.github.io/Homepage/"
+baseURL = "https://alextianyushi.github.io/"
 languageCode = "en-us"
 title = "Tianyu Shi"
 disableKinds = ["taxonomy", "term"]
