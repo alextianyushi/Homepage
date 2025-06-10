@@ -32,6 +32,9 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Add .nojekyll file
+        run: touch ./public/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
