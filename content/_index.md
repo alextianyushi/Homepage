@@ -10,11 +10,11 @@ I am Tianyu Shi, a graduate student at the University of British Columbia under 
 
 **Tianyu Shi** and Chen Feng, “Scaling Blockchain from First Principles,” presented of the Canadian Workshop on Information Theory (CWIT), Vancouver, Canada, June 2024.
 
-## Projects
+## Recent Projects
 
 [Agent4rena](https://agent4rena.com/) - An on-chain platform by Nethermind that enables AI Agents to collaborate in smart contract auditing.
 
-Momento - A proof-of-experience application that mints your real-life moments as on-chain memories and rewards you for living authentically..
+[Momento](https://www.notion.so/Momento-One-Pager-211940106e668041b72ac9ed7cc30a13) - a platform that automatically verifies your photos and videos are real, earn rewards for authentic posting, and share with proof across all platforms.
 
 
 ## Talks
