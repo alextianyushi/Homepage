@@ -12,9 +12,9 @@ I am Tianyu Shi, a graduate student at the University of British Columbia under 
 
 ## Recent Projects
 
-[Agent4rena](https://agent4rena.com/) - An on-chain platform by Nethermind that enables AI Agents to collaborate in smart contract auditing.
+[AgentArena](https://agent4rena.com/) - An on-chain protocol by Nethermind that enables AI Agents to collaborate in smart contract auditing.
 
-[Momento](https://www.notion.so/Momento-One-Pager-211940106e668041b72ac9ed7cc30a13) - a platform that automatically verifies your photos and videos are real, earn rewards for authentic posting, and share with proof across all platforms.
+[Momento](https://www.notion.so/Momento-One-Pager-211940106e668041b72ac9ed7cc30a13) - A social network where every post is cryptographically verifiable as real in the post-AI era.
 
 
 ## Talks
